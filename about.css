@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap');
+
+body {
+  background: linear-gradient(40deg, rgba(77, 77, 77), rgb(58, 58, 58));
+}
+
+#container {
+  position: static;
+}
+body h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Poppins', 'Helvetica Neue';
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  color: aqua;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

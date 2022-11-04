@@ -121,6 +121,13 @@ body {
   top: 15rem;
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    width: 40rem;
+    padding: 2rem;
+  }
+}
+
 .hero-title {
   font-size: 5rem;
   color: white;
@@ -193,4 +200,14 @@ body {
 
 .destination p {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #page-logo a {
+    font-size: 3.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.4rem;
+  }
 }
